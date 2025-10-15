@@ -13,7 +13,7 @@ y = square(t,50);
 
 %sygnał zaszumiony
 noise_var = 0.1;
-y_noisy = y + (rand(size(t))* 2 - 1) * noise_var;%[-1,1] * noise_amp
+y_noisy = y + (rand(size(t))* 2 - 1) * noise_amp;%[-1,1] * noise_amp
 
 
 %estymacja sygnału 
